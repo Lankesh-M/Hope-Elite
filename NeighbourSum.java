@@ -11,7 +11,6 @@ public class NeighbourSum {
             mat[i][j] =  sc.nextInt();
          }
     }
-    System.out.println(isValid(0, 0, row, col));
 
     //Modified Matirx
     for(int i=0; i < row; i++) {
@@ -53,6 +52,7 @@ public class NeighbourSum {
             neighSum = 0;
         }
         System.out.println();
+        sc.close();
     }
 
 
