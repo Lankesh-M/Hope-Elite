@@ -25,5 +25,6 @@ public class LongestSubsequenceInTwoStrings {
             System.out.println();
         }
         System.out.println(dp[str1.length()][str2.length()]);
+        sc.close();
     }
 }
