@@ -13,13 +13,13 @@ public class RotateArray {
         //     System.out.println(arr[i]);
         // }
 
-        for(int i=0; i<splitPos; i++){
+        for(int i = 0; i < splitPos; i++){
             split1[i] = arr[i];
             // System.out.print(split1[i] + " ");
         }
         split1 = reverse(split1);
         
-        for(int i=0; i<arr.length - splitPos; i++){
+        for(int i = 0; i < arr.length - splitPos; i++){
             split2[i] = arr[i+splitPos];
             // System.out.print(split2[i] + " ");
         }
@@ -33,8 +33,6 @@ public class RotateArray {
             }
             System.out.print(res[i] + " ");
         }
-
-        // for(int i = 0)
         
 
     }
