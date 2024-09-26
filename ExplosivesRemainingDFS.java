@@ -1,5 +1,5 @@
 import java.util.*;
-public class ExplosivesRemaining {
+public class ExplosivesRemainingDFS {
     static int explosiveCount = 0; 
     public static void main(String[] args) {
 		//Your Code Here
